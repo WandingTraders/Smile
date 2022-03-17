@@ -6,6 +6,10 @@ body {
     background-color: rgba(236, 240, 241, 1.0);
 }
 
+.hidden_button {
+    color: rgba(236, 240, 241, 1.0)
+}
+
 .container {
     width: 60vw;
     margin: auto;

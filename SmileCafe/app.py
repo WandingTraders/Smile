@@ -15,5 +15,3 @@ def render_menu():
 @app.route('/contact')
 def render_contact():
     return render_template("contact.html")
-
-app.run(host="0.0.0.0")
