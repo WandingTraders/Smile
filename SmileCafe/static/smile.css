@@ -35,6 +35,14 @@ nav {
 }
 
 a, a:visited {
-    color: rgba(52, 152, 219, 1.0);
+    color: rgba(27, 174, 190, 1);
     text-decoration: none;
+}
+
+.purple {
+    color: rgba(175, 45, 231, 0.79);
+}
+
+.burple {
+    color: rgba(101, 45, 231, 0.79);
 }
