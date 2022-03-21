@@ -6,7 +6,7 @@ body {
     background-color: rgba(236, 240, 241, 1.0);
 }
 
-.hidden_button {
+.hidden_button, .hidden_button:visited {
     color: rgba(236, 240, 241, 1.0)
 }
 
@@ -35,7 +35,7 @@ nav {
 }
 
 a, a:visited {
-    color: rgba(27, 174, 190, 1);
+    color: rgb(118, 168, 229);
     text-decoration: none;
 }
 

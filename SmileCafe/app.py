@@ -15,3 +15,22 @@ def render_menu():
 @app.route('/contact')
 def render_contact():
     return render_template("contact.html")
+
+@app.route('/secret')
+def render_secret():
+    return '''<br><br><br><br><br> <p align="center"><iframe width="840" height="470" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&controls=0"></iframe></p>
+           <p align="center">░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄<br>
+            ░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄<br>
+            ░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█<br>
+            ░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█<br>
+            ░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█<br>
+            █▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█<br>
+            █▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█<br>
+            ░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█<br>
+            ░░█░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█<br>
+            ░░░█░░██░░▀█▄▄▄█▄▄█▄████░█<br>
+            ░░░░█░░░▀▀▄░█░░░█░███████░█<br>
+            ░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█<br>
+            ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█<br>
+            ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█<br>
+            ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█</p>'''
